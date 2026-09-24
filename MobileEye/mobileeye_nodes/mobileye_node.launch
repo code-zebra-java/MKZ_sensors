@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<arg name="debug_mode" default_value="False"/>
+    <!-- debug mode will pass pre-cond check-->
+
+    <node name="mobileye_node" pkg="mobileye_node" exec="mobileye_node.py" output="screen" respawn="false">
+        <param name="debug_mode" value="$(var debug_mode)"/>
+    </node>
+</launch>
