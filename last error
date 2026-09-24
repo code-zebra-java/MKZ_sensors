@@ -1,0 +1,18 @@
+SmartMicro Radar(while trying to install the package on the docker):
+stderr: umrr_ros2_driver
+In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/umrr_ros2_driver` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+
+
+
+Lucid Camera Nodes(for the cameras ending with 46 & 47): 
+[INFO] [1785596963.278906296] [arena_camera_node]: Creating "arena_camera_node" node
+[INFO] [1785596963.292767696] [arena_camera_node]: 	QoS history     = keep_last
+				QoS depth       = 10
+				QoS reliability = reliable
+
+[INFO] [1785596963.292802535] [arena_camera_node]: Created "arena_camera_node" node
+[INFO] [1785596965.152057864] [arena_camera_node]: 4 arena device(s) has been discoved.
+[INFO] [1785596966.791711318] [arena_camera_node]: device created 1c:0f:af:24:c0:95 | 221202846 | TRI032S-C | 192.168.66.249 |  |
+terminate called after throwing an instance of 'GenICam_3_3_LUCID::AccessException'
+[ros2run]: Aborted
+
