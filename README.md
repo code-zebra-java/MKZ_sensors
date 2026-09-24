@@ -6,7 +6,8 @@ To run lucid camera nodes: 'ros2 run arena_camera_node start --ros-args -p seria
 
 'ros2 run arena_camera_node start --ros-args -p serial:="'221202847'" -p qos_history:="'keep_last'" -p qos_history_depth:=10 -p qos_reliability:="'reliable'" -p topic:="imagesfl"'
 
-'ros2 run arena_camera_node start --ros-args -p serial:="'221202855'" -p qos_history:="'keep_last'" -p qos_history_depth:=10 -p qos_reliability:="'reliable'" -p topic:="imagesfr"' (Change the serial number as necessary) serial numbers: 221202859(rear driver side) 221202846(rear passenger side) 221202847(front driver side) 221202855(front passenger side)
+'ros2 run arena_camera_node start --ros-args -p serial:="'221202855'" -p qos_history:="'keep_last'" -p qos_history_depth:=10 -p qos_reliability:="'reliable'" -p topic:="imagesfr"' 
+(Change the serial number as necessary) serial numbers: 221202859(rear driver side) 221202846(rear passenger side) 221202847(front driver side) 221202855(front passenger side)
 
 To run the usb camera node: 'ros2 run MKZ_cameras camera1' To run flir camera node: 'ros2 run flir_cam flir_cam'
 
