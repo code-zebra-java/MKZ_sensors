@@ -1,0 +1,20 @@
+[0.683s] Invoking command in '/home/temis/Desktop/sensors_ws/src/flir_cam': PYTHONPATH=/home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/flir_cam build --build-base /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/build install --record /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/install.log --install-scripts $base/lib/flir_cam --single-version-externally-managed install_data
+[0.956s] running egg_info
+[0.957s] writing build/flir_cam/flir_cam.egg-info/PKG-INFO
+[0.957s] writing dependency_links to build/flir_cam/flir_cam.egg-info/dependency_links.txt
+[0.957s] writing entry points to build/flir_cam/flir_cam.egg-info/entry_points.txt
+[0.957s] writing requirements to build/flir_cam/flir_cam.egg-info/requires.txt
+[0.957s] writing top-level names to build/flir_cam/flir_cam.egg-info/top_level.txt
+[0.959s] reading manifest file 'build/flir_cam/flir_cam.egg-info/SOURCES.txt'
+[0.960s] writing manifest file 'build/flir_cam/flir_cam.egg-info/SOURCES.txt'
+[0.960s] running build
+[0.960s] running build_py
+[0.960s] running install
+[0.960s] running install_lib
+[0.961s] running install_data
+[0.961s] running install_egg_info
+[0.963s] removing '/home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages/flir_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[0.963s] Copying build/flir_cam/flir_cam.egg-info to /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages/flir_cam-0.0.0-py3.10.egg-info
+[0.964s] running install_scripts
+[0.983s] writing list of installed files to '/home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/install.log'
+[1.002s] Invoked command in '/home/temis/Desktop/sensors_ws/src/flir_cam' returned '0': PYTHONPATH=/home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/flir_cam build --build-base /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/build install --record /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/install.log --install-scripts $base/lib/flir_cam --single-version-externally-managed install_data

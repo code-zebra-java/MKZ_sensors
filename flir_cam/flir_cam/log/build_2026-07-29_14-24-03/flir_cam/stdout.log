@@ -1,0 +1,31 @@
+running egg_info
+creating build/flir_cam/flir_cam.egg-info
+writing build/flir_cam/flir_cam.egg-info/PKG-INFO
+writing dependency_links to build/flir_cam/flir_cam.egg-info/dependency_links.txt
+writing entry points to build/flir_cam/flir_cam.egg-info/entry_points.txt
+writing requirements to build/flir_cam/flir_cam.egg-info/requires.txt
+writing top-level names to build/flir_cam/flir_cam.egg-info/top_level.txt
+writing manifest file 'build/flir_cam/flir_cam.egg-info/SOURCES.txt'
+reading manifest file 'build/flir_cam/flir_cam.egg-info/SOURCES.txt'
+writing manifest file 'build/flir_cam/flir_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/build
+creating /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/build/lib
+creating /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/build/lib/flir_cam
+copying flir_cam/__init__.py -> /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/build/lib/flir_cam
+running install
+running install_lib
+creating /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages/flir_cam
+copying /home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/build/lib/flir_cam/__init__.py -> /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages/flir_cam
+byte-compiling /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages/flir_cam/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/share/ament_index
+creating /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/share/ament_index/resource_index
+creating /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/share/ament_index/resource_index/packages
+copying resource/flir_cam -> /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/share/ament_index/resource_index/packages
+copying package.xml -> /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/share/flir_cam
+running install_egg_info
+Copying build/flir_cam/flir_cam.egg-info to /home/temis/Desktop/sensors_ws/src/flir_cam/install/flir_cam/lib/python3.10/site-packages/flir_cam-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/temis/Desktop/sensors_ws/src/flir_cam/build/flir_cam/install.log'
